@@ -1,4 +1,4 @@
-<img align="left" src="https://github.com/DevHrytsan/FlaxObjectPool/assets/55915163/3ca310e6-dbb4-4a68-a0c9-1bd1edfe3e9d" width="110px"/>
+<img align="left" src="https://github.com/DevHrytsan/FlaxObjectPool/assets/55915163/23808ea6-9a3b-4c0b-8900-e9232af98c5a" width="110px"/>
 <h1>Flax Object Pool</h1>
 
 ## Description
@@ -10,7 +10,7 @@
 1. Open your project.
 2. Navigate to Tools -> Plugins -> Clone Plugin Project.
 3. Enter the following URL: https://github.com/DevHrytsan/FlaxObjectPool.git.
-4. It will ask u to reload the editor. Do it.
+4. It will ask you to reload the editor. Do it.
 5. Profit!
 ## Usage
 At the beginning of your C# script, you should include the necessary namespace:
@@ -41,7 +41,7 @@ You can retrieve pool-related information, including its default capacity, maxim
 ## Example 
 The plugin demonstrates FlaxObjectPool usage. You'll find it in the plugin's root folder under "Content -> Demo" and open the "DemoScenePool" scene. It showcases the usage of pooling with custom projectiles. To remove the demo content, delete all the "Demo" folders in FlaxObjectPool.
 
-https://github.com/DevHrytsan/FlaxObjectPool/assets/55915163/2d2c4d9e-47cc-48c4-94d1-ccf8ea2675bd
+https://github.com/DevHrytsan/FlaxObjectPool/assets/55915163/dcefbc0f-9bc9-41c0-a459-404aab37291c
 
 ## Contribution
 Feel free to contribute to this project and suggest some ideas for it. Don`t forget about [Flax Engine discord server](https://discord.com/invite/yFBCmY9)
