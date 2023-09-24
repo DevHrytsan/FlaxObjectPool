@@ -39,7 +39,7 @@ objectPool.Clean();  // Release all active objects back to the pool
 ```
 You can retrieve pool-related information, including its default capacity, maximum size, the total object count in the pool, and the count of active objects, by accessing properties like DefaultCapacity, MaxSize, CountAll, and ActiveCount.
 ## Example 
-The plugin demonstrates FlaxObjectPool usage. You'll find it in the plugin's root folder under "Content -> Demo" and open the "DemoScenePool" scene. It showcases the usage of pooling with custom projectiles. To remove the demo content, delete all the "Demo" folders in FlaxObjectPool.
+You'll find it in the plugin's root folder under "Content -> Demo" and open the "DemoScenePool" scene. It showcases the usage of pooling with custom projectiles. To remove the demo content, delete all the "Demo" folders in FlaxObjectPool.
 
 https://github.com/DevHrytsan/FlaxObjectPool/assets/55915163/dcefbc0f-9bc9-41c0-a459-404aab37291c
 
