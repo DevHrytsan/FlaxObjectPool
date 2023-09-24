@@ -1,0 +1,45 @@
+{
+	"ID": "7a92b5c54ba695f4dd31b2a14d684c93",
+	"TypeName": "FlaxEngine.Prefab",
+	"EngineBuild": 6345,
+	"Data": [
+	{
+		"ID": "2428177640fd095aa297419fee86413d",
+		"TypeName": "FlaxEngine.RigidBody",
+		"ParentID": "00000000000000000000000000000000",
+		"Name": "PhysBox",
+		"Transform": {
+			"Translation": {
+				"X": 0.0,
+				"Y": 96.21702575683594,
+				"Z": 0.0
+			}
+		},
+		"OverrideMass": true,
+		"Mass": 50.0
+	},
+	{
+		"ID": "e83eed1e43e6ca9c5e2b59b082d09480",
+		"TypeName": "FlaxEngine.StaticModel",
+		"ParentID": "2428177640fd095aa297419fee86413d",
+		"Name": "CubeModel",
+		"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+		"Buffer": {
+			"Entries": [
+				{
+					"Material": "fd25274e4a910f32e5da5e8039974989",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				}
+			]
+		}
+	},
+	{
+		"ID": "a669e2a54ee5c078ca6ca8834203c421",
+		"TypeName": "FlaxEngine.BoxCollider",
+		"ParentID": "2428177640fd095aa297419fee86413d",
+		"Name": "BoxCollider"
+	}
+]
+}

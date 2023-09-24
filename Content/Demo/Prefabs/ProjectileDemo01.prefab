@@ -1,0 +1,51 @@
+{
+	"ID": "50ea729a4fb837954a46e6bb70bb073d",
+	"TypeName": "FlaxEngine.Prefab",
+	"EngineBuild": 6345,
+	"Data": [
+	{
+		"ID": "f1531c124584ebc7beba56ad8c1fd0e3",
+		"TypeName": "FlaxEngine.EmptyActor",
+		"Name": "ProjectileDemo01",
+		"StaticFlags": 0
+	},
+	{
+		"ID": "bdcd1952481ca4e802831fad4889f0c1",
+		"TypeName": "FlaxObjectPool.Demo.Projectile",
+		"ParentID": "f1531c124584ebc7beba56ad8c1fd0e3",
+		"V": {
+	"_projectileData": {
+		"CanRicochet": true,
+		"ricochetAngle": 40.0,
+		"mass": 50.0,
+		"dragFactor": 0.05
+	}
+}
+	},
+	{
+		"ID": "c1a21e4344acd7df817b2d9b8b07fafd",
+		"TypeName": "FlaxEngine.StaticModel",
+		"ParentID": "f1531c124584ebc7beba56ad8c1fd0e3",
+		"Name": "Sphere",
+		"Transform": {
+			"Scale": {
+				"X": 0.10000000149011612,
+				"Y": 0.10000000149011612,
+				"Z": 0.10000000149011612
+			}
+		},
+		"StaticFlags": 0,
+		"Model": "dd86c4724bf734c4959d23b3c74faa05",
+		"Buffer": {
+			"Entries": [
+				{
+					"Material": "c4ef17fb46e50ee5b5ae5d8a03379c19",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				}
+			]
+		}
+	}
+]
+}
