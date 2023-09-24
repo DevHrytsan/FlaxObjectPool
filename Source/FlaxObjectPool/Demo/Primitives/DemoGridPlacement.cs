@@ -5,7 +5,7 @@ using FlaxEngine;
 namespace FlaxObjectPool.Demo
 {
     /// <summary>
-    /// Just simple grid generator by grid.
+    /// Just simple placement by grid.
     /// </summary>
     public class DemoGridPlacement : Script
     {
