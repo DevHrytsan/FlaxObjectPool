@@ -17,7 +17,7 @@
 3. Enter the following URL: https://github.com/DevHrytsan/FlaxObjectPool.git.
 4. It will ask you to reload the editor. Do it.
 5. Profit!
-6. 
+   
 ### For Flax 1.6 and below
 1. DON`T open your project in Editor.
 2. Add FlaxObjectPool folder to the Plugin folder in your existing project
