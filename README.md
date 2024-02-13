@@ -8,10 +8,6 @@
   
 ## How to install
 ### For Flax 1.7+ 
-> [!WARNING]
-> As of the current date(03.10.2023), version 1.7 corresponds to a custom build derived from both the 'master' and '1.7' branches of the Flax engine on GitHub.
-> To obtain the latest version, you can either build it manually or use the Flax launcher to install the 'master' version.
-
 1. Open your project.
 2. Navigate to Tools -> Plugins -> Clone Plugin Project.
 3. Enter the following URL: https://github.com/DevHrytsan/FlaxObjectPool.git.
@@ -21,7 +17,7 @@
 ### For Flax 1.6 and below
 1. DON`T open your project in Editor.
 2. Add FlaxObjectPool folder to the Plugin folder in your existing project
-   > [!NOTE]
+   > [!WARNING]
    > If you do not already have a Plugin folder in your project, create one.
    > Ensure that the FlaxObjectPool folder is named correctly as "FlaxObjectPool".
 3. Next, add a reference from your game project to the added plugin project. Open <project_name>.flaxproj with a text editor and add a reference to the plugin project.
